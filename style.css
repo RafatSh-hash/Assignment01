@@ -174,7 +174,7 @@ body {
     box-shadow: 20px 10px 10px;
     background-image: linear-gradient(rgb(199, 124, 124), rgb(235, 134, 134));
     color: white;
-    transition: 1s;
+    transition: 2s;
     box-shadow: 15px 10px 10px gray;
 }
 
@@ -235,7 +235,7 @@ body {
     box-shadow: 20px 10px 10px;
     background-image: linear-gradient(rgb(199, 124, 124), rgb(235, 134, 134));
     color: white;
-    transition: 1s;
+    transition: 2s;
     box-shadow: 15px 10px 10px gray;
 }
 
