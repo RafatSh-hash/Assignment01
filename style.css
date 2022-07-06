@@ -1,0 +1,519 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/donation13.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: rgb(218, 255, 211)
+}
+
+.span {
+    color: salmon;
+}
+
+.header {
+    height: 500px;
+}
+
+.header-head {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.strong-paragraph {
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px 300px 20px 300px;
+    opacity: 0.8;
+}
+
+.button {
+
+    margin: 10px 650px 10px 650px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: salmon;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 100px;
+    border: none;
+}
+
+.button:hover {
+    color: salmon;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 15px 10px 10px gray;
+    transition: 2s;
+    border-radius: 15px;
+}
+
+.DonateToday {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 05px;
+}
+
+.paragraph2 {
+    color: gray;
+    text-align: center;
+    margin: 20px 300px 20px 300px;
+
+}
+
+
+.One {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 15px 5px 10px grey;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Two {
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 15px 5px 10px grey;
+    background-color: rgb(228, 98, 98);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taka {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.One:hover {
+    background-color: rgb(228, 98, 98);
+    color: white;
+    transition: 1s;
+}
+
+.Two:hover {
+
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    padding: none;
+    font-size: 20px;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: 400px;
+    background-color: transparent;
+
+}
+
+.button2 {
+
+    margin: 10px 650px 10px 650px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: salmon;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+}
+
+.button2:hover {
+
+    color: salmon;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 15px 10px 10px gray;
+
+}
+
+.Dtoday {
+    margin-top: 80px;
+}
+
+.food {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 15px 10px 10px gray;
+    background-image: linear-gradient(rgb(235, 134, 134), whitesmoke);
+    opacity: 0.8;
+
+}
+
+.food:hover {
+    box-shadow: 20px 10px 10px;
+    background-image: linear-gradient(rgb(199, 124, 124), rgb(235, 134, 134));
+    color: white;
+    transition: 1s;
+    box-shadow: 15px 10px 10px gray;
+}
+
+.shelter {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 15px 10px 10px gray;
+    background-image: linear-gradient(rgb(224, 214, 125), rgb(112, 192, 112));
+    opacity: 0.8;
+
+
+}
+
+.shelter:hover {
+    box-shadow: 20px 10px 10px;
+    background-image: linear-gradient(rgb(112, 192, 112), rgb(224, 214, 125));
+    color: rgb(59, 88, 185);
+    transition: 1s;
+    box-shadow: 15px 10px 10px gray;
+}
+
+.education {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 15px 10px 10px gray;
+    background-image: linear-gradient(rgb(125, 231, 231), khaki);
+    opacity: 0.8;
+
+}
+
+.education:hover {
+    box-shadow: 20px 10px 10px;
+    background-image: linear-gradient(khaki, rgb(125, 231, 231));
+    color: rgb(238, 89, 89);
+    transition: 1s;
+    box-shadow: 15px 10px 10px gray;
+}
+
+.medicine {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    box-shadow: 15px 10px 10px gray;
+    background-image: linear-gradient(rgb(235, 134, 134), whitesmoke);
+    opacity: 0.8;
+}
+
+.medicine:hover {
+    box-shadow: 20px 10px 10px;
+    background-image: linear-gradient(rgb(199, 124, 124), rgb(235, 134, 134));
+    color: white;
+    transition: 1s;
+    box-shadow: 15px 10px 10px gray;
+}
+
+.blood {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    box-shadow: 15px 10px 10px gray;
+    background-image: linear-gradient(rgb(125, 231, 231), khaki);
+    opacity: 0.8;
+
+}
+
+.blood:hover {
+    box-shadow: 20px 10px 10px;
+    background-image: linear-gradient(khaki, rgb(125, 231, 231));
+    color: rgb(238, 89, 89);
+    transition: 1s;
+    box-shadow: 15px 10px 10px gray;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 20px 20px 20px auto;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+
+.descriptionA {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    box-shadow: -15px 10px 10px gray;
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+
+.descriptionA:hover {
+
+    box-shadow: -20px 10px 10px gray;
+    background-color: rgb(170, 116, 221);
+    transition: 1s;
+    border-radius: 20px;
+
+
+}
+
+.donation9 {
+    height: 450px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: 15px 10px 10px gray;
+}
+
+.donation9:hover {
+    box-shadow: 20px 15px 15px gray;
+    transition: 1s;
+    border-radius: 40px;
+}
+
+.donation7 {
+    height: 448px;
+    width: 448px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: 15px 10px 10px gray;
+}
+
+.donation7:hover {
+    box-shadow: 20px 15px 15px gray;
+    transition: 1s;
+    border-radius: 40px;
+}
+
+.appeal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px;
+
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.button3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(170, 116, 221);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    width: 220px;
+}
+
+.button3:hover {
+    color: salmon;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 15px 10px 10px gray;
+}
+
+#subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(224, 218, 157);
+    border-radius: 20px;
+}
+
+.email {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 55px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    transition: 2s;
+}
+
+h4 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+
+    border: 15px solid salmon;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+
+}
+
+.image1 {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 17px;
+    border: 4px solid black;
+}
+
+.image2 {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 17px;
+    border: 4px solid black;
+}
+
+.image3 {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 17px;
+    border: 4px solid black;
+}
+
+.image4 {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 17px;
+    border: 4px solid black;
+}
+
+.image5 {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 17px;
+    border: 4px solid black;
+}
+
+.image6 {
+    height: 302px;
+    width: 302px;
+    margin: 10px;
+    border-radius: 17px;
+    border: 4px solid black;
+}
+
+.image1:hover {
+
+    box-shadow: 15px 10px 5px gray;
+    transition: 1s;
+}
+
+.image2:hover {
+
+    box-shadow: 15px 10px 5px gray;
+    transition: 1s;
+}
+
+.image3:hover {
+
+    box-shadow: 15px 10px 5px gray;
+    transition: 1s;
+}
+
+.image4:hover {
+
+    box-shadow: 15px 10px 5px gray;
+    transition: 1s;
+}
+
+.image5:hover {
+
+    box-shadow: 15px 10px 5px gray;
+    transition: 1s;
+}
+
+.image6:hover {
+
+    box-shadow: 15px 10px 5px gray;
+    transition: 1s;
+}
+
+
+
+.footer {
+    background-color: rgb(18, 18, 46);
+    text-align: center;
+    height: 150px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.F {
+    color: Red;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.note {
+    color: white;
+    font-size: 18px;
+}
